@@ -1,0 +1,3 @@
+C:/Laborator9/cmake-build-debug/CMakeFiles/Laborator9.dir
+C:/Laborator9/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Laborator9/cmake-build-debug/CMakeFiles/rebuild_cache.dir

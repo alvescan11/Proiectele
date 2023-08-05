@@ -1,0 +1,10 @@
+Product Id: 1 Product Code: 5466 Product Name: kbtv Product Price: 10
+Product Id: 2 Product Code: 3235 Product Name: cwqm Product Price: 13
+Product Id: 3 Product Code: 3039 Product Name: mzxe Product Price: 11
+Product Id: 4 Product Code: 0793 Product Name: ynxe Product Price: 13
+Product Id: 5 Product Code: 0901 Product Name: cauy Product Price: 11
+Product Id: 6 Product Code: 1604 Product Name: ctqw Product Price: 10
+Product Id: 7 Product Code: 6480 Product Name: ongd Product Price: 19
+Product Id: 8 Product Code: 9534 Product Name: ijjp Product Price: 1
+Product Id: 9 Product Code: 5200 Product Name: bkfm Product Price: 4
+Product Id: 10 Product Code: 7187 Product Name: agry Product Price: 18

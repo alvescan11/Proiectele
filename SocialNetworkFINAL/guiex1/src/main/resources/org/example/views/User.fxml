@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.UserController">
+   <children>
+      <Text fill="#6e0581" layoutX="202.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Facebook" wrappingWidth="287.73681640625">
+         <font>
+            <Font name="Franklin Gothic Book" size="36.0" />
+         </font>
+      </Text>
+      <Group layoutX="45.0" layoutY="72.0">
+         <children>
+            <TableView fx:id="usersTab" layoutY="25.0" prefHeight="208.0" prefWidth="138.0">
+               <columns>
+                  <TableColumn fx:id="colUsername" prefWidth="96.0" text="Username" />
+               </columns>
+            </TableView>
+            <TextField fx:id="handleFiltre" layoutX="2.0" layoutY="-8.0" prefHeight="25.0" prefWidth="134.0" promptText="     find your friends" />
+            <Button fx:id="sendRequest" layoutX="7.0" layoutY="233.0" mnemonicParsing="false" onAction="#sendRequest" style="-fx-background-color: gold;" text="Add friend" />
+         </children>
+      </Group>
+      <Group fx:id="FriendsGroup" layoutX="210.0" layoutY="106.0" />
+      <Group fx:id="RequestGroup" layoutX="417.0" layoutY="91.0" />
+      <TableView fx:id="friendsTab" layoutX="230.0" layoutY="96.0" prefHeight="208.0" prefWidth="131.0">
+         <columns>
+            <TableColumn fx:id="colFriends" prefWidth="142.66668701171875" text="Friends" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Button fx:id="deleteFriend" layoutX="260.0" layoutY="307.0" mnemonicParsing="false" onAction="#deleteFriend" prefHeight="23.0" prefWidth="72.0" style="-fx-background-color: gold;" text="Delete" />
+      <TableView fx:id="requestTab" layoutX="417.0" layoutY="96.0" prefHeight="208.0" prefWidth="131.0">
+         <columns>
+            <TableColumn fx:id="colRequests" prefWidth="142.40008544921875" text="Requests" />
+         </columns>
+      </TableView>
+      <Button fx:id="declineRequest" layoutX="416.0" layoutY="307.0" mnemonicParsing="false" onAction="#declineRequest" prefHeight="25.0" prefWidth="55.0" style="-fx-background-color: gold;" text="Delete" />
+      <Button fx:id="acceptRequest" layoutX="490.0" layoutY="307.0" mnemonicParsing="false" onAction="#acceptRequest" prefHeight="25.0" prefWidth="55.0" style="-fx-background-color: gold;" text="Accept" />
+   </children>
+</AnchorPane>
